@@ -1,0 +1,27 @@
+package day1;
+
+public class student_management_system {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int age =21;
+int marks = 23;
+int batterypercentage=79;
+long citypopulation =2500000l;
+char grade='B';
+boolean status =true;
+int balance =25000;
+int distancetocollege=1200;
+long largenumber=90000000000000l;
+
+		System.out.println("age: " +age );
+		System.out.println("marks: " +marks);
+		System.out.println("percentage:" +batterypercentage+"%");
+		System.out.println("city population:" +citypopulation);
+		System.out.println("grade:" +grade);
+		System.out.println("Login status:" +status);
+		System.out.println("Bank balance:"+balance);
+		System.out.println("distance:" +distancetocollege  +  " meters");
+	}
+
+}
