@@ -1,0 +1,23 @@
+package day1;
+
+public class Assigment_Practice2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+float f=97.8f;
+double y;
+y=f;
+int s;
+s= (int)f;
+char b=(char)s;
+char t= b;
+
+
+System.out.println("Float:" + f);
+System.out.println("converted to double:" + y);
+System.out.println("converted to int:" + s);
+System.out.println("character to int value:" + s);
+System.out.println("character to character value:" + b);
+	}
+
+}
